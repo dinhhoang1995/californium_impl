@@ -25,10 +25,10 @@ import org.eclipse.californium.core.server.resources.CoapExchange;
  * This resource implements a test of specification for the
  * ETSI IoT CoAP Plugtests, London, UK, 7--9 Mar 2014.
  */
-public class Large extends CoapResource {
+public class LargeSeparate extends CoapResource {
 
-	public Large() {
-		super("large");
+	public LargeSeparate() {
+		super("large-separate");
 		getAttributes().setTitle("Large resource");
 		getAttributes().addResourceType("block");
 		getAttributes().setMaximumSizeEstimate(1280);
@@ -36,6 +36,8 @@ public class Large extends CoapResource {
 
 	@Override
 	public void handleGET(CoapExchange exchange) {
+		
+		exchange.accept();
 		
 		StringBuilder builder = new StringBuilder();
 		builder.append("/-------------------------------------------------------------\\\n");

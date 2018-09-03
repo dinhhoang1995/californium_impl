@@ -12,5 +12,8 @@
 	<classpathentry kind="lib" path="/home/dintran/API_java/californium-core-2.0.0-M11.jar"/>
 	<classpathentry kind="lib" path="/home/dintran/API_java/element-connector-2.0.0-M11.jar"/>
 	<classpathentry kind="lib" path="/home/dintran/API_java/JSONLib/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/dintran/Downloads/jar_files/jackson-databind-2.9.6.jar"/>
+	<classpathentry kind="lib" path="/home/dintran/Downloads/jar_files/jackson-core-2.9.6.jar"/>
+	<classpathentry kind="lib" path="/home/dintran/Downloads/jar_files(2)/jackson-dataformat-cbor-2.8.7.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
